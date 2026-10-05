@@ -64,11 +64,6 @@ web_modules/
 .node_repl_history
 *.tgz
 .yarn-integrity
-.env
-.env.development.local
-.env.test.local
-.env.production.local
-.env.local
 .cache
 .parcel-cache
 .next
@@ -100,3 +95,15 @@ dist
 /vendor/
 ###< symfony/framework-bundle ###
 
+
+###> phpunit/phpunit ###
+/phpunit.xml
+/.phpunit.cache/
+###< phpunit/phpunit ###
+
+###> symfony/webpack-encore-bundle ###
+/node_modules/
+/public/build/
+npm-debug.log
+yarn-error.log
+###< symfony/webpack-encore-bundle ###
